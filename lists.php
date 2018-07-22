@@ -16,74 +16,8 @@
 		    </tr>
 		  </thead>
 		  <tbody id="userLists"></tbody>
-		</table> 
+		</table>
 	</div>
-	
-	<div class="modal" id="infoModal">
-	  <div class="modal-dialog modal-lg">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title">Edit Details</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body editDetails">
-	        <div class="container">
-	        	<div class="row">
-	        		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-	        			<div class="form-group">
-	        		      	<label for="exampleInputEmail1">Name</label>
-	        		      	<input type="text" class="form-control name" placeholder="Name">
-	        		    </div>
-	        		    <div class="form-group">
-	        		      	<label for="exampleInputEmail1">Mobile</label>
-	        		      	<input type="text" class="form-control mobile" placeholder="Mobile">
-	        		    </div>
-	        		    <div class="row">
-	        		    	<div class="col-md-5">
-	        		    	    <div class="form-group">
-	        		    	    	<label>Gender</label>
-	        		    		    <div class="form-check">
-	        		    		    	<div class="row">
-	        		    		    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	        		    				      	<label class="form-check-label">
-	        		    				        	<input type="radio" class="form-check-input" name="gender" value="FEMALE" checked> FEMALE
-	        		    				      	</label>
-	        		    				    </div>
-	        		    				    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-	        		    			      		<label class="form-check-label">
-	        		    			      	    	<input type="radio" class="form-check-input" name="gender" value="MALE"> MALE
-	        		    			      	  	</label>
-	        		    			      	</div>
-	        		    			    </div>  	  	
-	        		    		    </div>
-	        		    		</div>	
-	        		    	</div>
-	        		    	<div class="col-md-1"></div>
-	        		    	<div class="col-md-6">
-	        				    <div class="form-group">
-	        				      	<label for="exampleInputEmail1">Location</label>
-	        				      	<input id="user_location" type="text" class="form-control location" placeholder="Location">
-	        				    </div>
-	        				    <input type="hidden" class="lat" />
-	        				    <input type="hidden" class="lng" />
-	        				</div>
-	        				
-	        			</div>
-	        		    <button type="submit" class="btn btn-primary" id="saveForm">SAVE</button>
-	        		</div>
-	        	</div>
-	        </div>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary" id="updateForm">Save changes</button>
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
 <?php include 'inc/footer.php'; ?>
 <script type="text/javascript">
 	$(document).ready(function(){
